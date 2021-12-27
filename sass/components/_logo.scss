@@ -1,0 +1,16 @@
+.logo {
+  font-family: 'Raleway', sans-serif;
+  @include font($fw: 700, $fs: 24px, $lh: 1.17);
+  color: var(--color-accent);
+  text-decoration: none;
+   @media screen and (min-width: 768px) {
+    margin-right: 88px;}
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+    @include font($fw: 700, $fs: 26px, $lh: 1.19);
+  }
+}
+
+.logo__text {
+  color: #000000;
+}

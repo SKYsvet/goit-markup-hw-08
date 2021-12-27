@@ -1,0 +1,23 @@
+.header {
+  border: 1px solid #ececec;
+  @media screen and (max-width: 767.8px) {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199.8px) {
+    height: 80px;
+  }
+}
+
+.header__container {
+  @media screen and (max-width: 767.8px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+  }
+}
