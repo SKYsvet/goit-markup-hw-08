@@ -3,9 +3,6 @@
     display: none;
   }
   @media screen and (min-width: 768px) and (max-width: 1199.8px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-left: auto;
   }
   @media screen and (min-width: 1200px) {
@@ -17,7 +14,7 @@
 
 .contacts-list__item {
   @media screen and (min-width: 768px) and (max-width: 1199.8px) {
-    display: inline-block;
+    display: flex;
     &:not(:last-child) {
       margin-bottom: 10px;
     }

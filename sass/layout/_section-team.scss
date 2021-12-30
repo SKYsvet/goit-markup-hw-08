@@ -20,16 +20,17 @@
 }
 
 .cards {
+  margin-bottom: -30px;
   @media screen and (min-width: 768px) {
     display: flex;
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     flex-wrap: wrap;
-    flex-basis: calc(100% / 2-30);
+    flex-basis: calc(100% / 2-15px * 2);
     margin: -15px;
   }
   @media screen and (min-width: 1200px) {
-    margin-right: -30px;
+    margin: -15px;
   }
 }
 
@@ -45,7 +46,7 @@
     margin: 15px;
   }
   @media screen and (min-width: 1200px) {
-    margin-right: 30px;
+    margin: 15px;
   }
 }
 
@@ -62,6 +63,6 @@
 .cards__text {
   margin-bottom: 16px;
   text-align: center;
-  @include font($fs: 16px, $lh: 1.19);
+  @include font($fw: 400, $fs: 16px, $lh: 1.19);
   color: var(--color-text);
 }
