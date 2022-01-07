@@ -3,7 +3,8 @@
   flex-wrap: wrap;
   margin-bottom: 40px;
   @media screen and (max-width: 767.8px) {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+    margin-top: -15px;
   }
   @media screen and (min-width: 768px) {
     justify-content: center;
@@ -15,7 +16,7 @@
 
 .button-list__item {
   @media screen and (max-width: 767.8px) {
-    margin-bottom: 15px;
+    margin-top: 15px;
   }
   &:not(:last-child) {
     margin-right: 8px;

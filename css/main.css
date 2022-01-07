@@ -659,7 +659,8 @@ body {
 
 @media screen and (max-width: 767.8px) {
   .button-list {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+    margin-top: -15px;
   }
 }
 
@@ -677,7 +678,7 @@ body {
 
 @media screen and (max-width: 767.8px) {
   .button-list__item {
-    margin-bottom: 15px;
+    margin-top: 15px;
   }
 }
 
@@ -716,6 +717,12 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity var(--duration) var(--timing-function);
+}
+
+@media screen and (max-width: 767.8px) {
+  .backdrop {
+    padding: 93px 15px;
+  }
 }
 
 .backdrop.is-hidden {

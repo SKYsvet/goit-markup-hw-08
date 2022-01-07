@@ -4,6 +4,9 @@
   left: 0;
   display: flex;
   margin: auto;
+  @media screen and (max-width: 767.8px) {
+    padding: 93px 15px;
+  }
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
