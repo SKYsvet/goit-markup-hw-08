@@ -140,15 +140,14 @@
   @media screen and (min-width: 480px) {
     @include font($lh: 1.22, $ls: 0.02em);
   }
-}
-
-.mob-social__item:not(:last-child) .mob-social__link::after {
-  content: '';
-  position: absolute;
-  display: block;
-  top: 0;
-  right: -10px;
-  width: 1px;
-  height: 22px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  .mob-social__item:not(:last-child) &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -10px;
+    width: 1px;
+    height: 22px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+  }
 }
